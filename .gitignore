@@ -1,0 +1,7 @@
+.idea
+.Ds_Store
+
+venv
+data/*
+
+__pycache__/
