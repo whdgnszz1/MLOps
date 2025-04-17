@@ -1,0 +1,15 @@
+{
+ "type" : "record",
+ "name" : "Sample",
+ "namespace": "avropoc.example",
+ "fields" : [
+   {
+     "name" : "name",
+     "type" : "string"
+   },
+   {
+     "name" : "post_abbr",
+     "type" : "string"
+   }
+ ]
+}
