@@ -5,5 +5,7 @@ venv
 data/*
 
 __pycache__/
+
 ops/config/*
 ops/docker/airflow/logs/*
+ops/demo/netflix-prize-data/*

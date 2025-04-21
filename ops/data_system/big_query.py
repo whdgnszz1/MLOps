@@ -4,7 +4,7 @@ import pandas_gbq
 import pandas as pd
 
 credentials = service_account.Credentials.from_service_account_file(
-    "../config/machine-learning-456412-ff653903a9e1.json",
+    "../config/service-account-key.json",
 )
 
 dataset = load_dataset("wikipedia", language="en", date="20220301")

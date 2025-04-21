@@ -10,7 +10,7 @@ def generate_random_text(length: int = 10) -> str:
     return "".join(random.choice(letters) for i in range(length))
 
 
-client = bigquery.Client.from_service_account_json("../config/machine-learning-456412-ff653903a9e1.json")
+client = bigquery.Client.from_service_account_json("../config/service-account-key.json")
 table_id = "machine-learning-456412.introduction.streaming"
 
 try:
