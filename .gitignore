@@ -9,3 +9,6 @@ __pycache__/
 ops/config/*
 ops/docker/airflow/logs/*
 ops/demo/netflix-prize-data/*
+
+ops/dataflow/airflow/keys/*
+ops/dataflow/airflow/logs/*
